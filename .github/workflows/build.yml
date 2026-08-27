@@ -3,3 +3,6 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    secrets: inherit
+    with:
+      branches: '["caksoylar/zmk/caksoylar/zen-v1+v2"]'
