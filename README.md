@@ -1,9 +1,8 @@
 # Corne-ish Zen v2 — Miryoku + ZMK Studio
 
-![All keymap layers](assets/keymap-layers.svg)
-
-A native ZMK config for the **Corne-ish Zen v2 (GB R3)** that reproduces the
-Miryoku layout (QWERTY base) **and** is editable live in [ZMK Studio](https://zmk.studio/).
+A native ZMK config for the **Corne-ish Zen v2 (GB R3)** based on Matburt's repo that reproduces the
+Miryoku layout (changed to a Colemak-DH Mod base) **and** is editable live in [ZMK Studio](https://zmk.studio/).
+I've also added back the zmk-display-patch tree for the Miryoku logo.
 
 The keymap is transcribed directly from the `manna-harbour/miryoku_zmk` generated
 layers (default / right-hand-nav), with a **QWERTY** base instead of the stock
@@ -17,7 +16,6 @@ once and then move keys in the browser.
 build.yaml                     # builds both halves; Studio snippet on the left
 config/corneish_zen.conf       # Kconfig: Studio, pointing, display
 config/corneish_zen.keymap     # the Miryoku layout as a native keymap
-assets/keymap-layers.svg       # the layer diagram shown above
 ```
 
 ## How to use it
