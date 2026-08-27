@@ -111,9 +111,7 @@
 
     combos {
         compatible = "zmk,combos";
-        // Both OUTER thumb keys together unlocks ZMK Studio for editing.
-        // Excluded from the gaming layers, where those keys are Alt and Esc
-        // and an accidental simultaneous press is plausible.
+        // Excluded from the gaming layers
         combo_studio_unlock {
             timeout-ms = <50>;
             key-positions = <30 35>;
