@@ -1,5 +1,5 @@
 /*
- * Miryoku (QWERTY) for the Corne-ish Zen v2, 5-COLUMN (36-key) — native
+ * Miryoku (Colemak-DH) for the Corne-ish Zen v2, 5-COLUMN (36-key) — native
  * ZMK keymap, ZMK Studio enabled. Transcribed directly from the
  * manna-harbour/miryoku_zmk generated layers (default / right-hand-nav), so it
  * matches a stock Miryoku build, written as a plain keymap so Studio can edit it.
@@ -123,9 +123,9 @@
         base_layer {
             display-name = "Base";
             bindings = <
-&kp Q          &kp W          &kp E          &kp R          &kp T          &kp Y          &kp U          &kp I          &kp O          &kp P
-&hml LGUI A    &hml LALT S    &hml LCTRL D   &hml LSHFT F   &kp G          &kp H          &hmr LSHFT J   &hmr LCTRL K   &hmr LALT L    &hmr LGUI SQT
-&lt BTN Z      &hml RALT X    &kp C          &kp V          &kp B          &kp N          &kp M          &kp COMMA      &hmr RALT DOT  &lt BTN FSLH
+&kp Q          &kp W          &kp F          &kp P          &kp B          &kp J          &kp L          &kp U          &kp Y          &kp SQP
+&hml LGUI A    &hml LALT R    &hml LCTRL S   &hml LSHFT T   &kp G          &kp M          &hmr LSHFT N   &hmr LCTRL E   &hmr LALT I    &hmr LGUI O
+&lt BTN Z      &hml RALT X    &kp C          &kp D          &kp V          &kp K          &kp H          &kp COMMA      &hmr RALT DOT  &lt BTN FSLH
                               &lt MEDIA ESC  &lt NAV SPACE  &lt MOUSE TAB  &lt SYM RET    &lt NUM BSPC   &lt FUN DEL
             >;
         };
